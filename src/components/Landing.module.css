@@ -1,0 +1,76 @@
+.header select {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f6f6f6;
+}
+
+.headerTable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    padding-right: 60px;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    width: 500px;
+}
+
+.coinContainer {
+    margin: 50px auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #f6f6f6;
+}
+
+.input {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    background-color: #f6f6f6;
+    transition: all 0.2s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+.paginationBttns {
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.paginationBttns a {
+    padding: 5px 10px 7px 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+    color: grey;
+    background-color: grey;
+}
